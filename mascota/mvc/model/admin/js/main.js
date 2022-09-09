@@ -36,3 +36,21 @@ $(document).ready(function(){
 	});
 
 });
+
+//evento click para mostrar y ocultar menu
+const d = document;
+d.addEventListener("click",(e)=>{
+	const $span = d.getElementById("button-menu");
+	const $main = d.querySelector("main");
+	if(e.target === $span){
+		if(e.target.getAttribute("class")=="fa fa-bars"){
+			$main.classList.remove("contenedor1");
+			$main.classList.add("contenedor2");
+		}
+		else{
+			$main.classList.remove("contenedor2");
+			$main.classList.add("contenedor1");
+		}
+	}
+});
+//

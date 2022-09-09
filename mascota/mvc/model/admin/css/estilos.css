@@ -113,6 +113,18 @@ header #button-menu {
     content: '\f0d9';
     margin-right: 10px;
 }
+/* estilos para generar contenido dinamico */
+.contenedor1{
+    position: absolute;
+    top: 80px;
+    left:320px;
+}
+.contenedor2{
+    position: absolute;
+    top:80px;
+    left:-320px;
+}
+/* *****************************************/
 
 @media screen and (max-width: 320px) {
     .navegacion ul {

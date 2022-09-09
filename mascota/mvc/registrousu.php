@@ -10,11 +10,11 @@
     if ((isset($_POST["MM_insert"]))&&($_POST["MM_insert"]=="formreg"))
     {
         $id_usuario =    $_POST['id_usuario'];
-        $nombre_usuario=    $_POST['nombre_usuario'];
-        $direccion=     $_POST['direccion'];
-        $correo=     $_POST['correo'];
-        $telefono=     $_POST['telefono'];
-        $password=     $_POST['password'];
+        $nombre_usuario = $_POST['nombre_usuario'];
+        $direccion = $_POST['direccion'];
+        $correo = $_POST['correo'];
+        $telefono = $_POST['telefono'];
+        $password = $_POST['password'];
         $tarj_prof = $_POST['tarj_prof'];
         $id_tipo_usuario = $_POST['id_tipo_usuario'];
         $id_estado = 1;
